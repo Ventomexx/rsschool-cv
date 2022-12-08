@@ -14,8 +14,9 @@ I have over 10 years of experience in finance and auditing. Always been interest
 >- CSS
 >- Git/Github
 
-##Code Example
-```const { assert } = require("chai")
+## Code Example
+``` 
+const { assert } = require("chai")
 
 function test(n, expected) {
   it(`n=${n}`, () => {  
@@ -33,6 +34,6 @@ describe("basic tests", function(){
     - *Humanitarian*
 
 ## Languages
-Belorussian - Native   
-Ukrainian - A2
+Belorussian - Native\
+Ukrainian - A2\
 English - A2
