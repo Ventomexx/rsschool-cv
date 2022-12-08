@@ -1,4 +1,4 @@
-#Vadim Mehedko
+# Vadim Mehedko
 ***
 ## Contact information:
 + **Discord:** [ventomexx#7986](https://discordapp.com/users/261512184570445826)
@@ -28,3 +28,11 @@ describe("basic tests", function(){
   test(10,23)
 })
 ```
+## Education
+- Moscow State University of Economics, Statistics and Informatics
+    - *Humanitarian*
+
+## Languages
+Belorussian - Native   
+Ukrainian - A2
+English - A2
