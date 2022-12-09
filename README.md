@@ -1,1 +1,1 @@
-https://Ventomexx.github.io/rsschool-cv/cv
+https://Ventomexx.github.io/rsschool-cv/
