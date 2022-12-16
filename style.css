@@ -14,14 +14,10 @@ body {
     flex-direction: column;
     justify-content: space-between;  
 }
-nav,
+header,
 footer {
     color: #ffffff;
     background-color: #2a78ab;
-}
-header {
-    border: 1px solid red;
-    margin: 0;
 }
 main {
     border: 1px solid red;

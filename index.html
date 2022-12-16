@@ -13,22 +13,83 @@
     <title>My first HTML project</title>
 </head>
 <body>
-    <nav class="nav container">
-        <ul class="nav-list">
-            <li><a href="#contacts" class="nav-link">Contacts</a></li>
-            <li><a href="#aboutme" class="nav-link">About Me</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#code" class="nav-link">Code</a></li>
-            <li><a href="#experience" class="nav-link">Experience</a></li>
-            <li><a href="#education" class="nav-link">Education</a></li>
-            <li><a href="#languages" class="nav-link">Languages</a></li>
-        </ul>
-    </nav>
-    <header class="header container">
-
+    <header>
+        <nav class="nav container">
+            <ul class="nav-list">
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#aboutme" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#code" class="nav-link">Code</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
     </header>
+    
     <main class="main container">
-        <h1>Vadim Mehedko</h1>
+        <section class="section intro">
+            <img class="photo" src="./img/vad-img.jpg" alt="My avatar">
+            <h1>Vadim Mehedko</h1>
+        </section>
+        <section class="section section-contacts" id="contacts">
+            <h2>Contact information</h2>
+                <ul>
+                    <li><b>Discrod:</b><a href="https://discordapp.com/users/261512184570445826">ventomexx&#35;7986</a></li>
+                    <li><b>GitHub:</b><a href="https://github.com/Ventomexx">ventomexx</a></li>
+                    <li><b>Email:</b>ventomexx@gmail.com</li>
+                    <li><b>Location:</b>Minsk, Belarus</li>
+                </ul>
+        </section>
+        <section class="section section-about" id="aboutme">
+            <h2>About me</h2>
+            <p>I have over 10 years of experience in finance and auditing. Always been interested in IT, this will probably be a great challenge and hopefully a long journey into the digital world.</p>
+        </section>
+        <section class="section section-skills" id="skills">
+            <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>GitHub</li>
+                </ul>
+        </section>
+        <section class="section section-code" id="code">
+            <h2>Code</h2>
+                <pre>
+                    var myImage = document.querySelector('img');
+
+                    myImage.onclick = function() {
+                        var mySrc = myImage.getAttribute('src');
+                        if(mySrc === 'images/firefox-icon.png') {
+                          myImage.setAttribute ('src','images/firefox2.png');
+                        } else {
+                          myImage.setAttribute ('src','images/firefox-icon.png');
+                        }
+                    }
+                </pre>
+        </section>
+        <section class="section section-experience" id="experience">
+            <h2>My Experience</h2>
+            <ul>
+                <li>KPMG Audit School</li>
+                <li>Amazon and Ebay seller</li>
+                <li>Emergency Care And First Aid</li>
+            </ul>
+        </section>
+        <section class="section section-education" id="education">
+            <h2>Education</h2>
+            <p>Moscow State University of Economics, Statistics and Informatics</p>
+            <ul>
+                <li><em>Humanitarian</em></li>
+            </ul>
+        </section>
+        <section class="section section-languages" id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English - A2</li>
+                <li>Ukrainian - B2</li>
+            </ul>
+        </section>
     </main>
     <footer class="footer container">
         Подвал
