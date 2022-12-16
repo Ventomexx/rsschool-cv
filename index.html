@@ -27,26 +27,28 @@
         </nav>
     </header>
     
-    <main class="main container">
-        <section class="section intro">
-            <img class="photo" src="./img/vad-img.jpg" alt="My avatar">
+    <main class="main main-container container">
+        <section class="intro">
+            <img class="photo" src="./img/vad-img.jpg" alt="My avatar" width="300">
             <h1>Vadim Mehedko</h1>
+            <p><b>Junior Frontend Developer</b></p>
         </section>
         <section class="section section-contacts" id="contacts">
-            <h2>Contact information</h2>
+            <h2 class="section-title">Contact information</h2>
                 <ul>
-                    <li><b>Discrod:</b><a href="https://discordapp.com/users/261512184570445826">ventomexx&#35;7986</a></li>
-                    <li><b>GitHub:</b><a href="https://github.com/Ventomexx">ventomexx</a></li>
+                    <li><b>Discrod:</b><a class="link" href="https://discordapp.com/users/261512184570445826">ventomexx&#35;7986</a></li>
+                    <li><b>GitHub:</b><a class="link" href="https://github.com/Ventomexx">ventomexx</a></li>
                     <li><b>Email:</b>ventomexx@gmail.com</li>
                     <li><b>Location:</b>Minsk, Belarus</li>
                 </ul>
         </section>
         <section class="section section-about" id="aboutme">
-            <h2>About me</h2>
-            <p>I have over 10 years of experience in finance and auditing. Always been interested in IT, this will probably be a great challenge and hopefully a long journey into the digital world.</p>
+            <h2 class="section-title">About me</h2>
+            <p>I have over 10 years of experience in finance and auditing.</p> 
+            <p>Always been interested in IT, this will probably be a great challenge and hopefully a long journey into the digital world.</p>
         </section>
         <section class="section section-skills" id="skills">
-            <h2>Skills</h2>
+            <h2 class="section-title">Skills</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -54,22 +56,21 @@
                 </ul>
         </section>
         <section class="section section-code" id="code">
-            <h2>Code</h2>
+            <h2 class="section-title">Code example</h2>
                 <pre>
-                    var myImage = document.querySelector('img');
-
-                    myImage.onclick = function() {
-                        var mySrc = myImage.getAttribute('src');
-                        if(mySrc === 'images/firefox-icon.png') {
-                          myImage.setAttribute ('src','images/firefox2.png');
-                        } else {
-                          myImage.setAttribute ('src','images/firefox-icon.png');
-                        }
-                    }
+                    <code>
+if (depth > 0) {
+  for (const key of descendantKeys(data)) {
+    flat.push(...lowLevel(data[key], depth - 1));
+  }
+}
+  return flat;
+}
+                    </code>
                 </pre>
         </section>
         <section class="section section-experience" id="experience">
-            <h2>My Experience</h2>
+            <h2 class="section-title">My Experience</h2>
             <ul>
                 <li>KPMG Audit School</li>
                 <li>Amazon and Ebay seller</li>
@@ -77,17 +78,17 @@
             </ul>
         </section>
         <section class="section section-education" id="education">
-            <h2>Education</h2>
+            <h2 class="section-title">Education</h2>
             <p>Moscow State University of Economics, Statistics and Informatics</p>
             <ul>
                 <li><em>Humanitarian</em></li>
             </ul>
         </section>
         <section class="section section-languages" id="languages">
-            <h2>Languages</h2>
+            <h2 class="section-title">Languages</h2>
             <ul>
                 <li>English - A2</li>
-                <li>Ukrainian - B2</li>
+                <li>Ukrainian - B1</li>
             </ul>
         </section>
     </main>
