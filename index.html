@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://rs.school/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://rs.school/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>My first HTML project</title>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <ul class="nav-list">
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#aboutme" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#code" class="nav-link">Code</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+ <main class="main main-container container">
+        <section class="intro">
+            <img class="photo" src="./img/vad-img.jpg" alt="My avatar" width="300">
+            <h1>Vadim Mehedko</h1>
+            <p><b>Junior Frontend Developer</b></p>
+        </section>
+        <section class="section section-contacts" id="contacts">
+            <h2 class="section-title">Contact information</h2>
+                <ul>
+                    <li><b>Discrod:</b><a class="link" href="https://discordapp.com/users/261512184570445826" target="_blank">ventomexx&#35;7986</a></li>
+                    <li><b>GitHub:</b><a class="link" href="https://github.com/Ventomexx" target="_blank">ventomexx</a></li>
+                    <li><b>Email:</b>ventomexx@gmail.com</li>
+                    <li><b>Location:</b>Minsk, Belarus</li>
+                </ul>
+        </section>
+        <section class="section section-about" id="aboutme">
+            <h2 class="section-title">About me</h2>
+            <p>I have over 10 years of experience in finance and auditing.</p> 
+            <p>Always been interested in IT, this will probably be a great challenge and hopefully a long journey into the digital world.</p>
+        </section>
+        <section class="section section-skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>GitHub</li>
+                </ul>
+        </section>
+        <section class="section section-code" id="code">
+            <h2 class="section-title">Code example</h2>
+                <pre>
+                    <code>
+if (depth > 0) {
+  for (const key of descendantKeys(data)) {
+    flat.push(...lowLevel(data[key], depth - 1));
+  }
+}
+  return flat;
+}
+                    </code>
+                </pre>
+        </section>
+        <section class="section section-experience" id="experience">
+            <h2 class="section-title">My Experience</h2>
+            <ul>
+                <li><a class="link" href="https://Ventomexx.github.io/rsschool-cv/cv" target="_blank">My first task at rs.school</a></li>
+                <li>KPMG Audit School</li>
+                <li>Amazon seller</li>
+            </ul>
+        </section>
+        <section class="section section-education" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Moscow State University of Economics, Statistics and Informatics</p>
+        </section>
+        <section class="section section-languages" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>English - A2</li>
+                <li>Ukrainian - B1</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="container section-footer">
+            <p>2022</p>
+            <a class="footer-link" href="https://github.com/Ventomexx" target="_blank">GitHub Link</a>
+            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" width="120" alt="rs.school"></a>
+        </div>
+    </footer>
+</body>
+</html>
